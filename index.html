@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ujwala Tripurana — Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="wrap">
+      <h1>Ujwala Tripurana</h1>
+      <p>Master’s Student • AI & Business Analytics • Data Science | USF</p>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ABOUT -->
+    <section id="about" class="wrap">
+      <h2>About Me</h2>
+      <p>
+        I am a Master’s student in <strong>AI and Business Analytics</strong> at the University of South Florida (May 2026),
+        with a strong background in <strong>data science, analytics, and marketing technology</strong>.
+        My academic journey includes coursework in Business Statistics, Database Management Systems, Machine Learning, and Data Visualization.
+      </p>
+      <p>
+        Professionally, I’ve worked as a <strong>Business Analytics Intern</strong> at ANS Commerce,
+        managing marketing campaigns with $3,000+ daily budgets, achieving 5x–6x ROI through data-driven optimizations.
+        I also contributed to a machine learning cost prediction project for healthcare as a <strong>Data Science Intern</strong> at Omdena.
+      </p>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="wrap">
+      <h2>Projects</h2>
+
+      <article class="card">
+        <h3>U.S. Housing Affordability: Then and Now</h3>
+        <p>
+          Integrated and analyzed 9+ datasets to examine trends in housing affordability across income groups and regions.
+          Built Tableau dashboards and 11+ visualizations to highlight disparities over time.
+        </p>
+        <a class="btn" href="https://github.com/ujwalatripurana06/us-housing-affordability" target="_blank">View Repository</a>
+      </article>
+
+      <article class="card">
+        <h3>Crime Hotspot Prediction using ML</h3>
+        <p>
+          Applied machine learning on 980,000+ crime records to detect spatial-temporal patterns, achieving 87% accuracy.
+          Automated retraining with Airflow and integrated BigQuery for scalable analytics.
+        </p>
+        <a class="btn" href="https://github.com/ujwalatripurana06/crime-hotspot-ml" target="_blank">View Repository</a>
+      </article>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="wrap">
+      <h2>Skills</h2>
+      <ul class="pill-list">
+        <li>Python</li>
+        <li>SQL</li>
+        <li>Pandas</li>
+        <li>Tableau</li>
+        <li>Power BI</li>
+        <li>scikit-learn</li>
+        <li>Matplotlib</li>
+        <li>MongoDB</li>
+        <li>Azure</li>
+        <li>Git & Agile</li>
+      </ul>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="wrap">
+      <h2>Contact</h2>
+      <p>
+        <a href="mailto:ujwalatripurana@usf.edu">ujwalatripurana@usf.edu</a> •
+        <a target="_blank" href="https://www.linkedin.com/in/ujwala-tripurana-184107207/</a> •
+        <a target="_blank" href="https://github.com/ujwalatripurana06">GitHub</a>
+      </p>
+    </section>
+  </main>
+
+  <footer class="wrap">
+    <small>© <span id="year"></span> Ujwala Tripurana</small>
+    <script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+  </footer>
+</body>
+</html>
