@@ -1,0 +1,16 @@
+:root { --bg:#0f1220; --fg:#e8ebff; --muted:#b4b8d4; --brand:#7aa2ff; --card:#181b2e; }
+* { box-sizing: border-box; }
+body { margin:0; font-family: system-ui, Segoe UI, Arial, sans-serif; background:var(--bg); color:var(--fg); line-height:1.6; }
+.wrap { max-width: 980px; margin: 0 auto; padding: 1.25rem; }
+.hero { background: linear-gradient(135deg, #121632, #0c1026); border-bottom:1px solid #222645; }
+.hero h1 { font-size: 2rem; margin: 0.5rem 0; }
+.hero p { color: var(--muted); margin: 0 0 0.75rem; }
+nav a { color: var(--fg); text-decoration: none; margin-right: 1rem; opacity:.85; transition: opacity .2s ease; }
+nav a:hover { opacity:1; }
+h2 { margin: 1.5rem 0 .5rem; }
+.card { background: var(--card); padding: 1rem; border-radius: 12px; margin: 0.75rem 0; border:1px solid #232746; transition: transform .15s ease, border-color .15s ease; }
+.card:hover { transform: translateY(-2px); border-color: var(--brand); }
+.btn { display:inline-block; padding: .5rem .75rem; background: var(--brand); color:#0b1022; border-radius: 8px; text-decoration: none; font-weight:600; margin-top:.5rem; }
+.pill-list { list-style:none; padding:0; display:flex; flex-wrap:wrap; gap:.5rem; }
+.pill-list li { background:#1d2140; border:1px solid #272b52; padding:.4rem .6rem; border-radius:999px; }
+footer { color: var(--muted); border-top:1px solid #222645; padding-bottom:2rem; }
